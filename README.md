@@ -1,1 +1,0 @@
-# atividade---logica-de-programa-o
