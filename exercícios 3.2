@@ -9,14 +9,14 @@ int main()
     scanf("%s", aluno);
 
     printf("Digite sua nota final: ");
-    scanf("%f", &nota); // 1. Changed %i to %f | 2. Added & operator
+    scanf("%f", &nota);
 
     if (nota >= 7.0) {
-        printf("Aprovado\n");
+        printf("parabens %s, você está Aprovado\n", aluno);
     } else if (nota >= 5.0) {
-        printf("Recuperação\n");
+        printf("Ops infelizmente %s, você ficou de Recuperação\n", aluno);
     } else {
-        printf("Reprovado\n");
+        printf("Sinto muito %s, você foi Reprovado\n", aluno);
     }
 
     return 0;
